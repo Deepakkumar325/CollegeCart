@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: rgb(51, 51, 51) !important;
+    padding-top: 0px;
+}
+
+.bgCover1 {
+    background-image: url(../img/bg1.png);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    position: fixed;
+    background-color: var(--white);
+    z-index: -1;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0.5rem !important;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: left !important;
+}
+
+#navbar_logo {
+    width: 4rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.name_nav {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    #navbar_logo {
+        width: 4rem;
+        padding-left: 0rem;
+    }
+
+    .name_nav {
+        text-align: left;
+    }
+
+}
+
+
+.loginbox_form_boxheading {
+    margin-bottom: 0.3rem !important;
+}
+
+.loginpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+}
+
+.loginpage_logo {
+    text-decoration: none;
+}
+
+.loginbox {
+    color: white;
+    background-color: #1c1c1c;
+    width: 32% !important;
+    border: 3px solid #3293b3;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    .loginbox {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .loginbox {
+        width: 80% !important;
+    }
+}
+
+.loginbox_content_heading {
+    margin-bottom: 0px !important;
+}
+
+.loginbox_content_text {
+    color: #3293b3;
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+
+
+
+
+#start_button_login {
+    color: #3293b3 !important;
+    border: 2px solid #3293b3 !important;
+    background-color: #111111 !important;
+
+}
+
+#start_button_login:hover {
+    background-color: #3293b3 !important;
+    border-color: #3293b3;
+    color: #ffffff !important;
+}
+
+.inputbox {
+    border: 2px solid #3293b3;
+    background-color: #111111;
+    border-radius: 5px;
+    padding: 7px;
+    width: 55%;
+    color: white;
+}
+
+.signup_button {
+    color: #2fb1a7;
+}

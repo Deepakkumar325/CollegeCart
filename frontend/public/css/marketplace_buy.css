@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: rgb(51, 51, 51) !important;
+    padding-top: 0px;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0.5rem !important;
+}
+
+#navbar_logo {
+    width: 4rem;
+    margin-left: 1.5rem;
+}
+
+@media screen and (max-width:600px) {
+    #navbar_logo {
+        width: 4rem;
+        padding-left: 0rem;
+    }
+
+    .name_nav {
+        text-align: left;
+    }
+
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+#navbar_logo:hover {
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 1rem !important;
+}
+
+.nav-link:hover {
+    color: #454545 !important;
+}
+
+@media screen and (min-width:1000px) {
+    #current {
+        background-color: #353535 !important;
+        border-radius: 9px;
+        color: white !important;
+    }
+
+}
+
+.actual_logo a {
+    text-decoration: none;
+}
+
+.actual_logo a:hover {
+    transition: 0.1s;
+}
+
+#start_button {
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    background-color: black !important;
+}
+
+#start_button:hover {
+    background-color: #ffffff !important;
+    border-color: #ffffff;
+    color: #000000 !important;
+}
+
+#start_button_explore {
+    color: #3293b3 !important;
+    border: 2px solid #3293b3 !important;
+    background-color: black !important;
+}
+
+#start_button_explore:hover {
+    background-color: #3293b3 !important;
+    border-color: #3293b3;
+    color: #ffffff !important;
+}
+
+.name_nav {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    --bs-gutter-x: 0rem !important;
+}
+#sec_nav-item a{
+    font-size: 0.8rem !important;
+}
+
+
+.bgCover1 {
+    background-image: url(../img/bg1.png);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    position: fixed;
+    background-color: var(--white);
+    z-index: -1;
+}
+
+
+#innercard {
+    background-color: #1c1c1c;
+    border: 2px solid #3293b3;
+    border-radius: 20px;
+    color: white;
+    height: 81vh!important;
+
+}
+
+#innercard2{
+    background-color: #1c1c1c;
+    border: 2px solid #3293b3;
+    border-radius: 20px;
+    color: white;
+    height: 85vh!important;
+}
+
+#buy_button {
+    color: #3293b3 !important;
+    border: 2px solid #3293b3 !important;
+    background-color: #111111 !important;
+    margin-bottom: 10px!important;
+}
+
+#buy_button:hover {
+    background-color: #3293b3 !important;
+    border-color: #3293b3;
+    color: #ffffff !important;
+}
+
+.product_image {
+    width: 100%;
+    min-height: 12rem;
+    object-fit: cover;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.fonts-fam{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hover-custom:hover{
+    background-color: #3293b3!important;
+    color: white!important;
+}
+
+.buy-custom-css{
+    height: 750px!important;
+    width: 1000px!important;
+}
+
+.height-cus{
+    min-height: 190px!important;
+}
+
+.No-available-products{
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    margin: auto;
+    justify-content: end!important;
+    align-items: center!important;
+}
